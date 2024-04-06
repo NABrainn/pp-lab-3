@@ -18,6 +18,10 @@ public class Circle {
         return this.radius;
     }
 
+    public double getArea() {
+        return Math.PI * Math.pow(this.radius, 2);
+    }
+
     public double calculatePerimeter() {
         return 2 * Math.PI * this.radius;
     }

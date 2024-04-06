@@ -19,12 +19,10 @@ public class Main {
         circles[3] = coloredCircleTwo;
 
         for(Circle circle : circles) {
-            circle.getArea();
+            System.out.println(circle.getArea());
             if(circle instanceof ColoredCircle) {
-                ((ColoredCircle) circle).getColor();
+                System.out.println(((ColoredCircle) circle).getColor());
             }
         }
-
-
     }
 }
